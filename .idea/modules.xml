@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/../ControlStatements/ControlStatements.iml" filepath="$PROJECT_DIR$/../ControlStatements/ControlStatements.iml" />
       <module fileurl="file://$PROJECT_DIR$/cntrl_stmnt/cntrl_stmnt.iml" filepath="$PROJECT_DIR$/cntrl_stmnt/cntrl_stmnt.iml" />
       <module fileurl="file://$PROJECT_DIR$/java.iml" filepath="$PROJECT_DIR$/java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/serialization deserialization/serialization deserialization.iml" filepath="$PROJECT_DIR$/serialization deserialization/serialization deserialization.iml" />
     </modules>
   </component>
 </project>
