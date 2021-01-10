@@ -3,8 +3,10 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/BASIC_PROGRAMS/BASIC_PROGRAMS.iml" filepath="$PROJECT_DIR$/BASIC_PROGRAMS/BASIC_PROGRAMS.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CircularLinkedList/CircularLinkedList.iml" filepath="$PROJECT_DIR$/CircularLinkedList/CircularLinkedList.iml" />
       <module fileurl="file://$PROJECT_DIR$/../ControlStatements/ControlStatements.iml" filepath="$PROJECT_DIR$/../ControlStatements/ControlStatements.iml" />
       <module fileurl="file://$PROJECT_DIR$/Convertions/Convertions.iml" filepath="$PROJECT_DIR$/Convertions/Convertions.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DoublyLinkedList/DoublyLinkedList.iml" filepath="$PROJECT_DIR$/DoublyLinkedList/DoublyLinkedList.iml" />
       <module fileurl="file://$PROJECT_DIR$/LINKEDLIST/LINKEDLIST.iml" filepath="$PROJECT_DIR$/LINKEDLIST/LINKEDLIST.iml" />
       <module fileurl="file://$PROJECT_DIR$/Matrix/Matrix.iml" filepath="$PROJECT_DIR$/Matrix/Matrix.iml" />
       <module fileurl="file://$PROJECT_DIR$/SearchingAndSorting/SearchingAndSorting.iml" filepath="$PROJECT_DIR$/SearchingAndSorting/SearchingAndSorting.iml" />
