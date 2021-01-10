@@ -4,6 +4,10 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/BASIC_PROGRAMS/BASIC_PROGRAMS.iml" filepath="$PROJECT_DIR$/BASIC_PROGRAMS/BASIC_PROGRAMS.iml" />
       <module fileurl="file://$PROJECT_DIR$/../ControlStatements/ControlStatements.iml" filepath="$PROJECT_DIR$/../ControlStatements/ControlStatements.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Matrix/Matrix.iml" filepath="$PROJECT_DIR$/Matrix/Matrix.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SearchingAndSorting/SearchingAndSorting.iml" filepath="$PROJECT_DIR$/SearchingAndSorting/SearchingAndSorting.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Strings/Strings.iml" filepath="$PROJECT_DIR$/Strings/Strings.iml" />
+      <module fileurl="file://$PROJECT_DIR$/arrays/arrays.iml" filepath="$PROJECT_DIR$/arrays/arrays.iml" />
       <module fileurl="file://$PROJECT_DIR$/cntrl_stmnt/cntrl_stmnt.iml" filepath="$PROJECT_DIR$/cntrl_stmnt/cntrl_stmnt.iml" />
       <module fileurl="file://$PROJECT_DIR$/java.iml" filepath="$PROJECT_DIR$/java.iml" />
       <module fileurl="file://$PROJECT_DIR$/serialization deserialization/serialization deserialization.iml" filepath="$PROJECT_DIR$/serialization deserialization/serialization deserialization.iml" />
