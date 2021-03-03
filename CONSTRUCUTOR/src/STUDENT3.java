@@ -17,3 +17,4 @@ public class STUDENT3 {
         s2.display();
     }
 }
+//DEFAULT CONSTRUCTOR

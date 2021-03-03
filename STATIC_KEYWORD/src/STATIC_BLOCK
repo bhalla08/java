@@ -1,0 +1,3 @@
+3) Java static block
+Is used to initialize the static data member.
+It is executed before the main method at the time of classloading.

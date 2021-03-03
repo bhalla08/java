@@ -25,3 +25,4 @@ public class STUDENT4 {
         s2.display();
     }
 }
+//EXAMPLE OF PARAMATARIZED CONSTRUCTOR
