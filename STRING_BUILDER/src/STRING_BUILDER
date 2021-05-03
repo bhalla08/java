@@ -1,0 +1,58 @@
+Java StringBuilder class
+Java StringBuilder class is used to create mutable (modifiable) string. The Java StringBuilder class is same as
+StringBuffer class except that it is non-synchronized.
+
+
+
+Important Constructors of StringBuilder class
+Constructor	                            Description
+StringBuilder()	            creates an empty string Builder with the initial capacity of 16.
+StringBuilder(String str)	creates a string Builder with the specified string.
+StringBuilder(int length)	creates an empty string Builder with the specified capacity as length.
+
+
+
+Important methods of StringBuilder class
+Method	                                                                            Description
+public StringBuilder append(String s)	                                is used to append the specified string with this string. The append() method is overloaded like append(char), append(boolean), append(int), append(float), append(double) etc.
+public StringBuilder insert(int offset, String s)	                    is used to insert the specified string with this string at the specified position. The insert() method is overloaded like insert(int, char), insert(int, boolean), insert(int, int), insert(int, float), insert(int, double) etc.
+public StringBuilder replace(int startIndex, int endIndex, String str)	is used to replace the string from specified startIndex and endIndex.
+public StringBuilder delete(int startIndex, int endIndex)	            is used to delete the string from specified startIndex and endIndex.
+public StringBuilder reverse()	                                        is used to reverse the string.
+public int capacity()	                                                is used to return the current capacity.
+public void ensureCapacity(int minimumCapacity)	                        is used to ensure the capacity at least equal to the given minimum.
+public char charAt(int index)	                                        is used to return the character at the specified position.
+public int length()	                                                    is used to return the length of the string i.e. total number of characters.
+public String substring(int beginIndex)	                                is used to return the substring from the specified beginIndex.
+public String substring(int beginIndex, int endIndex)	                is used to return the substring from the specified beginIndex and endIndex.
+
+
+
+
+
+1) StringBuilder append() method
+The StringBuilder append() method concatenates the given argument with this string.
+
+2) StringBuilder insert() method
+The StringBuilder insert() method inserts the given string with this string at the given position.
+
+3) StringBuilder replace() method
+The StringBuilder replace() method replaces the given string from the specified beginIndex and endIndex.
+
+4) StringBuilder delete() method
+The delete() method of StringBuilder class deletes the string from the specified beginIndex to endIndex.
+
+5) StringBuilder reverse() method
+The reverse() method of StringBuilder class reverses the current string.
+
+6) StringBuilder capacity() method
+The capacity() method of StringBuilder class returns the current capacity of the Builder. The default capacity of the
+Builder is 16. If the number of character increases from its current capacity, it increases the capacity by
+(oldcapacity*2)+2. For example if your current capacity is 16, it will be (16*2)+2=34.
+
+
+7) StringBuilder ensureCapacity() method
+The ensureCapacity() method of StringBuilder class ensures that the given capacity is the minimum to the current
+capacity. If it is greater than the current capacity, it increases the capacity by (oldcapacity*2)+2. For example
+if your current capacity is 16, it will be (16*2)+2=34.
+

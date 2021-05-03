@@ -1,0 +1,6 @@
+String Concatenation in Java
+In java, string concatenation forms a new string that is the combination of multiple strings.
+There are two ways to concat string in java:
+
+1. By + (string concatenation) operator
+2. By concat() method

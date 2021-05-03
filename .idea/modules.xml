@@ -9,6 +9,7 @@
       <module fileurl="file://$PROJECT_DIR$/BINDING/BINDING.iml" filepath="$PROJECT_DIR$/BINDING/BINDING.iml" />
       <module fileurl="file://$PROJECT_DIR$/CONSTRUCUTOR/CONSTRUCUTOR.iml" filepath="$PROJECT_DIR$/CONSTRUCUTOR/CONSTRUCUTOR.iml" />
       <module fileurl="file://$PROJECT_DIR$/COVARIANT/COVARIANT.iml" filepath="$PROJECT_DIR$/COVARIANT/COVARIANT.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CREATING_IMMUTABLE_CLASS/CREATING_IMMUTABLE_CLASS.iml" filepath="$PROJECT_DIR$/CREATING_IMMUTABLE_CLASS/CREATING_IMMUTABLE_CLASS.iml" />
       <module fileurl="file://$PROJECT_DIR$/CircularLinkedList/CircularLinkedList.iml" filepath="$PROJECT_DIR$/CircularLinkedList/CircularLinkedList.iml" />
       <module fileurl="file://$PROJECT_DIR$/Command_Line_Argument/Command_Line_Argument.iml" filepath="$PROJECT_DIR$/Command_Line_Argument/Command_Line_Argument.iml" />
       <module fileurl="file://$PROJECT_DIR$/../ControlStatements/ControlStatements.iml" filepath="$PROJECT_DIR$/../ControlStatements/ControlStatements.iml" />
@@ -31,6 +32,8 @@
       <module fileurl="file://$PROJECT_DIR$/ACCESS_MODIFIERS/PRIVATE.iml" filepath="$PROJECT_DIR$/ACCESS_MODIFIERS/PRIVATE.iml" />
       <module fileurl="file://$PROJECT_DIR$/RUNTIME_POLYMORPHISM/RUNTIME_POLYMORPHISM.iml" filepath="$PROJECT_DIR$/RUNTIME_POLYMORPHISM/RUNTIME_POLYMORPHISM.iml" />
       <module fileurl="file://$PROJECT_DIR$/STATIC_KEYWORD/STATIC_KEYWORD.iml" filepath="$PROJECT_DIR$/STATIC_KEYWORD/STATIC_KEYWORD.iml" />
+      <module fileurl="file://$PROJECT_DIR$/STRING_BUFFER/STRING_BUFFER.iml" filepath="$PROJECT_DIR$/STRING_BUFFER/STRING_BUFFER.iml" />
+      <module fileurl="file://$PROJECT_DIR$/STRING_BUILDER/STRING_BUILDER.iml" filepath="$PROJECT_DIR$/STRING_BUILDER/STRING_BUILDER.iml" />
       <module fileurl="file://$PROJECT_DIR$/SUPER_KEYBOARD/SUPER_KEYWORD.iml" filepath="$PROJECT_DIR$/SUPER_KEYBOARD/SUPER_KEYWORD.iml" />
       <module fileurl="file://$PROJECT_DIR$/SearchingAndSorting/SearchingAndSorting.iml" filepath="$PROJECT_DIR$/SearchingAndSorting/SearchingAndSorting.iml" />
       <module fileurl="file://$PROJECT_DIR$/Strings/Strings.iml" filepath="$PROJECT_DIR$/Strings/Strings.iml" />
