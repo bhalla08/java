@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/ACCESS_MODIFIERS/ACCESS_MODIFIERS.iml" filepath="$PROJECT_DIR$/ACCESS_MODIFIERS/ACCESS_MODIFIERS.iml" />
       <module fileurl="file://$PROJECT_DIR$/AGGREGATION/AGGREGATION.iml" filepath="$PROJECT_DIR$/AGGREGATION/AGGREGATION.iml" />
       <module fileurl="file://$PROJECT_DIR$/Abstract_Class/Abstract_Class.iml" filepath="$PROJECT_DIR$/Abstract_Class/Abstract_Class.iml" />
       <module fileurl="file://$PROJECT_DIR$/BASIC_PROGRAMS/BASIC_PROGRAMS.iml" filepath="$PROJECT_DIR$/BASIC_PROGRAMS/BASIC_PROGRAMS.iml" />
@@ -12,17 +13,21 @@
       <module fileurl="file://$PROJECT_DIR$/../ControlStatements/ControlStatements.iml" filepath="$PROJECT_DIR$/../ControlStatements/ControlStatements.iml" />
       <module fileurl="file://$PROJECT_DIR$/Convertions/Convertions.iml" filepath="$PROJECT_DIR$/Convertions/Convertions.iml" />
       <module fileurl="file://$PROJECT_DIR$/DoublyLinkedList/DoublyLinkedList.iml" filepath="$PROJECT_DIR$/DoublyLinkedList/DoublyLinkedList.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ENCAPSULATION/ENCAPSULATION.iml" filepath="$PROJECT_DIR$/ENCAPSULATION/ENCAPSULATION.iml" />
       <module fileurl="file://$PROJECT_DIR$/FINAL_KEYWORD/FINAL_KEYWORD.iml" filepath="$PROJECT_DIR$/FINAL_KEYWORD/FINAL_KEYWORD.iml" />
       <module fileurl="file://$PROJECT_DIR$/INHERITANCE/INHERITANCE.iml" filepath="$PROJECT_DIR$/INHERITANCE/INHERITANCE.iml" />
       <module fileurl="file://$PROJECT_DIR$/INSTANCEOF/INSTANCEOF.iml" filepath="$PROJECT_DIR$/INSTANCEOF/INSTANCEOF.iml" />
       <module fileurl="file://$PROJECT_DIR$/INSTANCE_INITIALISER_BLOCK/INSTANCE_INITIALISER_BLOCK.iml" filepath="$PROJECT_DIR$/INSTANCE_INITIALISER_BLOCK/INSTANCE_INITIALISER_BLOCK.iml" />
       <module fileurl="file://$PROJECT_DIR$/Interface/Interface.iml" filepath="$PROJECT_DIR$/Interface/Interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JAVA_API/JAVA_API.iml" filepath="$PROJECT_DIR$/JAVA_API/JAVA_API.iml" />
       <module fileurl="file://$PROJECT_DIR$/LINKEDLIST/LINKEDLIST.iml" filepath="$PROJECT_DIR$/LINKEDLIST/LINKEDLIST.iml" />
       <module fileurl="file://$PROJECT_DIR$/Matrix/Matrix.iml" filepath="$PROJECT_DIR$/Matrix/Matrix.iml" />
       <module fileurl="file://$PROJECT_DIR$/OBJECT_AND_CLASS/OBJECT_AND_CLASS.iml" filepath="$PROJECT_DIR$/OBJECT_AND_CLASS/OBJECT_AND_CLASS.iml" />
+      <module fileurl="file://$PROJECT_DIR$/OOPS/OOPS.iml" filepath="$PROJECT_DIR$/OOPS/OOPS.iml" />
       <module fileurl="file://$PROJECT_DIR$/OVERLOADING/OVERLOADING.iml" filepath="$PROJECT_DIR$/OVERLOADING/OVERLOADING.iml" />
       <module fileurl="file://$PROJECT_DIR$/OVERRIDING/OVERRIDING.iml" filepath="$PROJECT_DIR$/OVERRIDING/OVERRIDING.iml" />
       <module fileurl="file://$PROJECT_DIR$/PACKAGE/PACKAGE.iml" filepath="$PROJECT_DIR$/PACKAGE/PACKAGE.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ACCESS_MODIFIERS/PRIVATE.iml" filepath="$PROJECT_DIR$/ACCESS_MODIFIERS/PRIVATE.iml" />
       <module fileurl="file://$PROJECT_DIR$/RUNTIME_POLYMORPHISM/RUNTIME_POLYMORPHISM.iml" filepath="$PROJECT_DIR$/RUNTIME_POLYMORPHISM/RUNTIME_POLYMORPHISM.iml" />
       <module fileurl="file://$PROJECT_DIR$/STATIC_KEYWORD/STATIC_KEYWORD.iml" filepath="$PROJECT_DIR$/STATIC_KEYWORD/STATIC_KEYWORD.iml" />
       <module fileurl="file://$PROJECT_DIR$/SUPER_KEYBOARD/SUPER_KEYWORD.iml" filepath="$PROJECT_DIR$/SUPER_KEYBOARD/SUPER_KEYWORD.iml" />

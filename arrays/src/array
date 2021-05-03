@@ -1,0 +1,47 @@
+Normally, an array is a collection of similar type of elements which has contiguous memory location.
+
+Java array is an object which contains elements of a similar data type. Additionally, The elements of an array
+are stored in a contiguous memory location. It is a data structure where we store similar elements. We can store
+only a fixed set of elements in a Java array.
+
+Array in Java is index-based, the first element of the array is stored at the 0th index, 2nd element is stored
+on 1st index and so on.
+
+
+Syntax to Declare an Array in Java
+
+dataType[] arr; (or)
+dataType []arr; (or)
+dataType arr[];
+
+
+
+
+Instantiation of an Array in Java
+
+arrayRefVar=new datatype[size];
+
+
+
+Syntax to Declare Multidimensional Array in Java
+
+dataType[][] arrayRefVar; (or)
+dataType [][]arrayRefVar; (or)
+dataType arrayRefVar[][]; (or)
+dataType []arrayRefVar[];
+
+int[][] arr=new int[3][3];//3 row and 3 column
+
+
+
+
+Syntax of arraycopy method
+
+public static void arraycopy(
+Object src, int srcPos,Object dest, int destPos, int length
+)
+
+
+Cloning an Array in Java
+Since, Java array implements the Cloneable interface, we can create the clone of the Java array. If we create the
+clone of a single-dimensional array, it creates the deep copy of the Java array. It means, it will copy the actual value. But, if we create the clone of a multidimensional array, it creates the shallow copy of the Java array which means it copies the references.
