@@ -1,0 +1,43 @@
+How to Sort ArrayList in Java
+In Java, Collection is a framework that provides interfaces (Set, List, Queue, etc.) and classes (ArrayList, LinkedList, etc.) to store the group of objects. These classes store data in an unordered manner. Sometimes we need to arrange data in an ordered manner which is known as sorting. The sorting can be performed in two ways either in ascending or descending order.
+
+In this section, we will learn how to sort ArrayList in ascending and descending order.
+
+ArrayList
+In Java, ArrayList is a class of Collections framework that is defined in the java.util package. It inherits the AbstractList class. It dynamically stores the elements. The advantage of ArrayList is that it has no size limit. It is more flexible than the traditional array. It may have duplicate elements. We can also use all the methods of List interface because it implements the List interface.
+
+
+We can sort an ArrayList in two ways ascending and descending order. The Collections class provides two methods to sort an ArrayList in Java.
+
+sort()
+reverseOrder()
+Collections.sort() Method
+An ArrayList can be sorted by using the sort() method of the Collections class in Java. It accepts an object of ArrayList as a parameter to be sort and returns an ArrayList sorted in the ascending order according to the natural ordering of its elements.
+
+Syntax
+
+public static <T extends Comparable<? super T>> void sort(List<T> list)
+Remember: All elements in the ArrayList must be mutually comparable, else it throws ClassCastException. Here, mutually comparable means the list must have the same type of elements. For example, consider the snippet of the code:
+
+//creating an instance of ArrayList that contains String type elements
+ArrayList<String> list = new ArrayList<String>();
+list.add("Computer");
+list.add(123);
+list.add("Hard Disk");
+list.add("DRAM");
+In the above example, we see that a list has four elements out of which three elements are of String type and one is Integer type. The three elements that are in String are mutually comparable but the element that is of Integer type is not comparable with the other three. Hence, the list must have the same type of elements.
+
+Collections.reverseOrder() Method
+If we want to sort ArrayList in descending order, Java Collections class provides reverseOrder() method. It allows us to sort the ArrayList in reverse-lexicographic order.
+
+Syntax
+
+public static <T> Comparator<T> reverseOrder()
+It returns a comparator that imposes the reverse of the natural ordering on a collection of objects that implement the Comparable interface.
+
+Remember that we do not directly invoke the reverseOrder() method. We use it along with the Collection.sort() method, as follows.
+
+Collections.sort(objectOfArrayList, Collections.reverseOrder());
+Therefore, the sorting of ArrayList in descending order done in two steps, first the ArrayList sorts the data in ascending order, after that the sorted data is reversed by the reverseOrder() method.
+
+Let's create programs that sort ArrayList in ascending order.

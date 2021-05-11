@@ -7,6 +7,8 @@
       <module fileurl="file://$PROJECT_DIR$/Abstract_Class/Abstract_Class.iml" filepath="$PROJECT_DIR$/Abstract_Class/Abstract_Class.iml" />
       <module fileurl="file://$PROJECT_DIR$/BASIC_PROGRAMS/BASIC_PROGRAMS.iml" filepath="$PROJECT_DIR$/BASIC_PROGRAMS/BASIC_PROGRAMS.iml" />
       <module fileurl="file://$PROJECT_DIR$/BINDING/BINDING.iml" filepath="$PROJECT_DIR$/BINDING/BINDING.iml" />
+      <module fileurl="file://$PROJECT_DIR$/COLLECTION_ARRAYLIST/COLLECTION_ARRAYLIST.iml" filepath="$PROJECT_DIR$/COLLECTION_ARRAYLIST/COLLECTION_ARRAYLIST.iml" />
+      <module fileurl="file://$PROJECT_DIR$/COLLECTION_LINKEDLIST/COLLECTION_LINKEDLIST.iml" filepath="$PROJECT_DIR$/COLLECTION_LINKEDLIST/COLLECTION_LINKEDLIST.iml" />
       <module fileurl="file://$PROJECT_DIR$/CONSTRUCUTOR/CONSTRUCUTOR.iml" filepath="$PROJECT_DIR$/CONSTRUCUTOR/CONSTRUCUTOR.iml" />
       <module fileurl="file://$PROJECT_DIR$/COVARIANT/COVARIANT.iml" filepath="$PROJECT_DIR$/COVARIANT/COVARIANT.iml" />
       <module fileurl="file://$PROJECT_DIR$/CREATING_IMMUTABLE_CLASS/CREATING_IMMUTABLE_CLASS.iml" filepath="$PROJECT_DIR$/CREATING_IMMUTABLE_CLASS/CREATING_IMMUTABLE_CLASS.iml" />

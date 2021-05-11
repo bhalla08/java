@@ -1,0 +1,285 @@
+How to Compare Two ArrayList in Java
+There are following ways to compare two ArrayList in Java:
+
+Java equals() method
+Java removeAll() method
+Java retainAll() method
+Java ArrayList.contains() method
+Java contentEquals() method
+Java Stream interface
+Java equals() method
+Java equals() method of List interface compares the specified object with the list for equality. It overrides the equals() method of Object class.
+
+Syntax
+
+
+boolean equals(Object o)
+This method accepts an object to be compared for equality with the list. It returns true if the specified object is equal to the list, else returns false.
+
+Example
+
+In the following example, we have create two ArrayList firstList and secondList. Comparing both list by using equals() method, it returns true. We have added another element in the secondList to create a difference between firstList and secondList. Now, if we perform comparison, it returns false.
+
+import java.util.*;
+public class ComapreArraylistExample1
+{
+public static void main(String args[])
+{
+//first array list
+ArrayList<String> firstList=new ArrayList<String>();
+//adds elements to the arraylist
+firstList.add("Apple");
+firstList.add("Pears");
+firstList.add("Guava");
+firstList.add("Mango");
+System.out.println(firstList);
+//second array list
+List<String> secondList=new ArrayList<String>();
+//adds elements to the arraylist
+secondList.add("Apple");
+secondList.add("Pears");
+secondList.add("Guava");
+secondList.add("Mango");
+System.out.println(secondList);
+//comparing both lists
+boolean boolval = firstList.equals(secondList); //returns true because lists are equal
+System.out.println(boolval);
+//adding another element in the second list
+secondList.add("Papaya");
+//again comparing both lists
+boolean bool = firstList.equals(secondList); //returns false because lists are not equal
+System.out.println(bool);
+}
+}
+Output
+
+[Apple, Pears, Guava, Mango]
+[Apple, Pears, Guava, Mango]
+true
+false
+Java removeAll() method (finding the missing element)
+
+Java removeAll() method of ArrayList class is used to remove all elements from the list that are contained in the specified collection. It overrides the removeAll() method of AbstractCollection<E> class.
+
+Syntax
+
+public boolean removeAll(Collection<?>  c)
+This method accepts Collection as a parameter containing elements to be removed from this list. It returns true if this list changed as a result of the call.
+
+Example
+
+In the following example, we have created two ArrayList firstList and secondList. The removeAll() method removes all the elements of the firstList because the same elements are also present in the secondList, except Papaya. So, Papaya is the missing element in the firstList. Hence, it returns Papaya. The method returns an empty list [] if both the list have same elements.
+
+import java.util.*;
+public class ComapreArraylistExample2
+{
+public static void main(String args[])
+{
+//first arraylist
+ArrayList<String> firstList=new ArrayList<String>();
+//adds elements to the array list
+firstList.add("Apple");
+firstList.add("Pears");
+firstList.add("Guava");
+firstList.add("Peach");
+//second array list
+ArrayList<String> secondList=new ArrayList<String>();
+//adds elements to the array list
+secondList.add("Apple");
+secondList.add("Pears");
+secondList.add("Papaya");
+secondList.add("Peach");
+//removes all elements from the first list
+//returns empty list if all the elements of first list match with elements of second list
+secondList.removeAll(firstList);
+//prints the element of second list which does not match with the element of the first list
+System.out.println(secondList);
+}
+}
+Output
+
+[Papaya]
+Let's see another example of removeAll() method that returns the elements from firstList which are not present is the secondList.
+
+Example
+
+import java.util.*;
+public class ComapreArraylistExample3
+{
+public static void main(String args[])
+{
+//first array list
+ArrayList<Integer> firstList=new ArrayList<Integer>(Arrays.asList(12, 4, 67, 90, 34));
+System.out.println("First array list: ");
+System.out.println(firstList);
+//second array list
+List<Integer> secondList=new ArrayList<Integer>(Arrays.asList(12, 4, 67, 0, 34));
+System.out.println("Second array list: ");
+System.out.println(secondList);
+//returns the common elements in both list
+firstList.removeAll(secondList);
+System.out.println("Un-common element of the first list: ");
+System.out.println(firstList);
+}
+}
+Output
+
+First array list:
+[12, 4, 67, 90, 34]
+Second array list:
+[12, 4, 67, 0, 34]
+Un-common element of the first list:
+[90]
+Java retainAll() method (returns common elements in both lists)
+Java retainAll() method of ArrayList class retains only the elements of the list that are contained in other list also. It overrides the retainAll() method of AbstarctCollection<E> class.
+
+Syntax
+
+public boolean retainAll(Collection<?> c)
+This method accepts a Collection as a parameter that contains elements to be retained in the list. It returns true if this list changed as a result of the call.
+
+Example
+
+In this example, we have created two ArrayList firstList and secondList by using the asList() method of the Arrays class. The asList() method returns a list view of the specified array.
+
+import java.util.*;
+public class ComapreArraylistExample4
+{
+public static void main(String args[])
+{
+//first arraylist
+ArrayList<String> firstList=new ArrayList<String>(Arrays.asList("M", "W", "J", "K", "T"));
+System.out.println("First arraylist: ");
+System.out.println(firstList);
+//second arraylist
+List<String> secondList=new ArrayList<String>(Arrays.asList("M", "W", "E", "K", "T"));
+System.out.println("Second arraylist: ");
+System.out.println(secondList);
+//returns the common elements in both list
+secondList.retainAll(firstList);
+System.out.println("Common elements in both list: ");
+System.out.println(secondList);
+}
+}
+Output
+
+First arraylist:
+[M, W, J, K, T]
+Second arraylist:
+[M, W, E, K, T]
+Common elements in both list:
+[M, W, K, T]
+Java ArrayList.contains() method
+Java ArrayList.contains() method is used for comparing two elements of different ArrayList. Java ArrayList.contains() method overrides the contains() method of AbstrarctCollection<E> class.
+
+Syntax
+
+public boolean  contains(Object o)
+This method parses an element whose presence in the list is to be checked. It returns true if the element is matched, else returns false.
+
+Example
+
+In this example, we have created two ArrayList firstList and secondList of String type. We have compared these ArrayList using contains() method. If the elements of firstList match with the elements of the secondList, it return Yes and stores this value into thirdList. Similarly, if the element does not match, it return No.
+
+import java.util.ArrayList;
+import java.util.Arrays;
+public class ComapreArraylistExample5
+{
+public static void main(String [] args)
+{
+//first arraylist
+ArrayList<String> firstList= new ArrayList<String>(Arrays.asList("Good", "Morning", "Students"));
+//second arraylist
+ArrayList<String> secondList= new ArrayList<String>(Arrays.asList("Good", "Night", "frineds"));
+//storing the comparison output in thirdList
+ArrayList<String> thirdList= new ArrayList<String>();
+//iterator using for-each loop
+for(String tempList : firstList)    //tempList is  a variable
+thirdList.add(secondList.contains(tempList) ? "Yes" : "No");
+System.out.println(thirdList);
+}
+}
+Output
+
+[Yes, No, No]
+Java contentEquals() method
+Java contentEquals() method compares the String with the StringBuffer and returns a boolean value. It belongs to String class.
+
+Syntax
+
+public boolean contentEquals(StringBuffer sb)
+This method accepts StringBuffer as a parameter to compare against the String. It returns true if the String represents the same sequence of characters as the specified StringBuffer, else returns false.
+
+Example
+
+In this example, we have created two ArrayList firstList and secondList of String type. We have created a static method compareList() which parses two ArrayList ls1 and ls2 as an argument and returns a boolean value. The method converts a list into String. The contentEquals() method compares the String to the specified StringBuffer.
+
+We have added another element in the secondList to create the difference between both lists and again call the compareList() method, which returns false.
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+public class ComapreArraylistExample6
+{
+//defining method
+public static boolean compareList(ArrayList ls1, ArrayList ls2)
+{
+//converts List into String and checks string are equal or not
+return ls1.toString().contentEquals(ls2.toString())?true:false;
+}
+public static void main(String[] args)
+{
+ArrayList<String> firstList = new ArrayList<String>(Arrays.asList("Java", "Python", "Ruby", "Go"));
+ArrayList<String> secondList = new ArrayList<String>(Arrays.asList("Java", "Python", "Ruby", "Go"));
+System.out.println("When Lists are same: "+compareList(firstList, secondList));
+//adding another element to the secondList
+secondList.add("C++");
+//output after adding different element
+System.out.println("When Lists are not same: "+compareList(firstList, secondList));
+}
+}
+Output
+
+When Lists are same: true
+When Lists are not same: false
+Java Stream Interface
+Java Stream is an interface. It belong to java.util package. It provides a filter() method to filter stream elements on the basis of given elements. It is an intermediate process.
+
+Syntax
+
+Stream<T> filter(Predicate<? Super T> predicate)
+This method accepts Predicate (functional interface) as an argument and returns a new stream of resultant elements.
+
+collect() method
+Another method is used in the following example is the collect() method of Stream interface.
+
+It performs a mutable reduction operation on the elements of this stream using a Collector. The Collector encapsulates the functions used as arguments to collect(Supplier, BiConsumer, BiConsumer). It allows to reusing of collection strategies and composition of collect operations. It is a terminal operation.
+
+Syntax
+
+<R,A> R collect(Collector<? Super T,A,R> collector)
+Collectors.toList() method
+The toList() is a static method of Collectors class. It belong to java.util.Stream.Collectors class.
+
+Syntax
+
+public static <T> Collector<T, ?, List<T>> toList()
+Where T is the type of elements. It returns a Collector which collects all the input elements into a List, in an encounter (unordered) order.
+
+Example
+
+In the following example, we have created two ArrayList firstList and secondList of String type. The filter() method returns a List of common elements which are present in both Lists.
+
+import java.util.*;
+public class CompareArrayListExample7
+{
+public static void main(String[] args)
+{
+ArrayList<String> firstList  = new ArrayList<String>(Arrays.asList("Java", "Python", "Ruby", "Go"));
+System.out.println("First List: "+firstList);
+ArrayList<String> secondList = new ArrayList<String>(Arrays.asList("Java", "Python", "Ruby", "Go", "Perl"));
+System.out.println("Second List: "+secondList);
+// Finds common elements
+System.out.print("Common elements: " +firstList.stream().filter(secondList::contains).collect(Collectors.toList()));
+}
+}
