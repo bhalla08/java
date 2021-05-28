@@ -1,0 +1,19 @@
+Java ListIterator Interface
+ListIterator Interface is used to traverse the element in a backward and forward direction.
+
+ListIterator Interface declaration
+public interface ListIterator<E> extends Iterator<E>
+
+
+Methods of Java ListIterator Interface:
+
+Method	                                                        Description
+void add(E e)	                                        This method inserts the specified element into the list.
+boolean hasNext()	                                    This method returns true if the list iterator has more elements while traversing the list in the forward direction.
+E next()	                                            This method returns the next element in the list and advances the cursor position.
+int nextIndex()	                                        This method returns the index of the element that would be returned by a subsequent call to next()
+boolean hasPrevious()	                                This method returns true if this list iterator has more elements while traversing the list in the reverse direction.
+E previous()	                                        This method returns the previous element in the list and moves the cursor position backward.
+E previousIndex()	                                    This method returns the index of the element that would be returned by a subsequent call to previous().
+void remove()	                                        This method removes the last element from the list that was returned by next() or previous() methods
+void set(E e)	                                        This method replaces the last element returned by next() or previous() methods with the specified element.
